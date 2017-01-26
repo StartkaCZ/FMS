@@ -4,6 +4,8 @@
 
 class Animation
 {
+	class State* current;
+
 public:
 	Animation();
 	~Animation();
@@ -12,8 +14,5 @@ public:
 	void idle();
 	void jumping();
 	void climbing();
-
-private:
-	State* current;
 };
 

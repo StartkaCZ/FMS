@@ -23,7 +23,7 @@ void Animation::idle()
 {
 	current->idle(this);
 }
-}
+
 void Animation::jumping()
 {
 	current->jumping(this);
